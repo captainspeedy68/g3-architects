@@ -125,11 +125,46 @@ main {
     font-weight: 700;
 }
 
+/* feature section styles */
+.features {
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+
+.features-content .card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.features .section-title {
+    border-left: 5px solid #FF900E;
+    ;
+    padding-left: 20px;
+}
+
+.ten-years-badge {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    width: 342px;
+    padding: 40px;
+}
+.ten-years-badge h2{
+    font-size: 4rem;
+    
+}
+
 /* facts card */
-.facts-card-container{
+.facts-card-container {
     display: flex;
     justify-content: space-around;
 }
+
 .facts-card-container .card {
     border-radius: 8px;
     border: 1px solid #FF900E;
@@ -137,32 +172,36 @@ main {
     padding: 30px;
 }
 
-.facts-card-container .card-stats{
+.facts-card-container .card-stats {
     font-size: 3rem;
     color: #424242;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.facts-card-container .card-title{
+
+.facts-card-container .card-title {
     font-weight: 600;
     font-size: 1.25rem;
     margin-top: 5px;
 }
 
 /* slponsors styles */
-.sponsors{
+.sponsors {
     text-align: center;
 }
-.sponsors-img-container{
+
+.sponsors-img-container {
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
     align-items: center;
 }
-.sponsors-img-container img{
+
+.sponsors-img-container img {
     width: 150px;
 }
+
 
 /* responsive layout for banner section */
 /* mobile devices */
@@ -172,7 +211,8 @@ main {
         text-align: center;
     }
 
-    nav, .facts-card-container {
+    nav,
+    .facts-card-container {
         flex-direction: column;
     }
 
@@ -185,14 +225,16 @@ main {
         grid-template-columns: 1fr;
     }
 
-    .teams-content, .facts-card-container {
+    .teams-content,
+    .facts-card-container {
         padding-right: 20px;
         padding-left: 20px;
     }
 
-    .facts-card-container{
+    .facts-card-container {
         gap: 10px;
     }
+
     /* .sponsors-img-container{
         align-items: center;
     } */
